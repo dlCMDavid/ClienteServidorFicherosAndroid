@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Servidor de ficheros</string>
+    <string name="action_salir">Salir</string>
+    <string name="action_AccionesServidor">AccServer</string>
+    <string name="action_DescargarFichero">Descargar Fichero</string>
+    <string name="action_SubirFichero">Subir Fichero</string>
+    <string name="action_reconectar">Intentar Reconectar</string>
+    <string name="action_ActualizarArchivos">Actualizar lista archivos</string>
+    <string name="tvFicherosServidor">Ficheros en el Servidor</string>
+
+    <!-- Activity Descargar -->
+    <string name="title_activity_descargar">Descargar Ficheros</string>
+    <string name="txvSeleccionarArchivo">Seleccione el archivo que descargar: </string>
+    <string name="txvSeleccionarCarpeta">Seleccione la carpeta donde descargar el archivo </string>
+    <string name="btnDescargar">Descargar</string>
+</resources>

@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.clienteservidorficherosandroid.VistasControladores.MainActivity">
+
+    <item
+        android:id="@+id/action_salir"
+        android:orderInCategory="100"
+        android:title="@string/action_salir"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_AccionesServidor"
+        android:orderInCategory="100"
+        android:title="@string/action_AccionesServidor"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/action_ActualizarArchivos"
+                android:orderInCategory="100"
+                android:title="@string/action_ActualizarArchivos"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_DescargarFichero"
+                android:orderInCategory="100"
+                android:title="@string/action_DescargarFichero"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_SubirFichero"
+                android:orderInCategory="100"
+                android:title="@string/action_SubirFichero"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_reconectar"
+                android:orderInCategory="100"
+                android:title="@string/action_reconectar"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
